@@ -1,3 +1,0 @@
-Eerste lijn
-Een lokaal toegevoegde 2de lijn
-Een lijn op de sample-branch.
