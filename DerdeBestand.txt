@@ -1,1 +1,2 @@
 Een nieuwe file
+Deze lijn is toegevoegd in de remote op github zelf.
