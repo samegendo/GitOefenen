@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "ITCase",
+    "environment": "spo",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart",
+    "template": "react",
+    "componentName": "ITCase",
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.0",
+    "libraryName": "it-case",
+    "libraryId": "ae0fd595-3375-4a43-a6db-6bb19c3f8e80",
+    "packageManager": "npm",
+    "solutionShortDescription": "ITCase description"
+  }
+}

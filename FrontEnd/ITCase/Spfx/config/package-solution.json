@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "it-case-client-side-solution",
+    "id": "ae0fd595-3375-4a43-a6db-6bb19c3f8e80",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "ITCase description"
+      },
+      "longDescription": {
+        "default": "ITCase description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "it-case Feature",
+        "description": "The feature that activates elements of the it-case solution.",
+        "id": "a4d16aad-ded8-4e1d-a8c7-f6ab2feae5dd",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/it-case.sppkg"
+  }
+}

@@ -1,0 +1,91 @@
+/*@import '~office-ui-fabric-react/dist/sass/References.scss';
+*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.header {
+  background-color: rgb(131, 128, 141);
+  height: 100px;
+  width: 100%;
+  font-size: 25px;
+  text-align: center;
+
+}
+
+.smallContainer {
+  border: 10px solid rgb(12, 12, 12);
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  height: auto;
+  margin-bottom: 50px;
+  width: 600px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 50px;
+}
+
+
+.headers {
+  margin-top: 0;
+  background-color: black;
+  color: white;
+  font-size: 1.8em;
+  height: 50px;
+}
+
+
+.context {
+  background-color: gray;
+}
+
+
+p {
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+}
+
+
+/*
+.itCase {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+*/

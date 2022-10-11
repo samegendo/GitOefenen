@@ -1,0 +1,34 @@
+{
+    "appName": "ITCase",
+    "projectId": "554d27cd-49d2-47ce-b302-9c9668532e15",
+    "version": "2.1.0",
+    "components": [
+        {
+            "name": "teams-tab",
+            "hosting": "spfx",
+            "deploy": true,
+            "folder": "SPFx",
+            "build": true
+        },
+        {
+            "name": "spfx",
+            "provision": true
+        }
+    ],
+    "programmingLanguage": "typescript",
+    "solutionSettings": {
+        "name": "fx-solution-azure",
+        "version": "1.0.0",
+        "hostType": "SPFx",
+        "azureResources": [],
+        "capabilities": [
+            "Tab"
+        ],
+        "activeResourcePlugins": [
+            "fx-resource-local-debug",
+            "fx-resource-appstudio",
+            "fx-resource-cicd",
+            "fx-resource-spfx"
+        ]
+    }
+}
